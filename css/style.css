@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: top;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: #FFFFFF;
+}
+.header {
+    background: url('../img/header.jpg');
+    background-size: cover;
+    height: 650px;
+    position: relative;
+}
+.header-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container {
+    width: 1260px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.logo {
+    margin-top: 40px;
+}
+.login {
+    margin-top: 30px;
+}
+.section1-wrapper {
+    max-width: 741px;
+    max-height: 537px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 100px rgba(0, 0, 0, 0.1);
+    color: #000000;
+    padding-left: 64px;
+    padding-top: 96px;
+    padding-bottom: 75px;
+    position: absolute;
+    left: 63px;
+    top: 275px;
+}
+.section1-title {
+    font-family: 'Merriweather', serif;
+    font-weight: bold;
+    font-size: 39px;
+    line-height: 49px;
+    margin-bottom: 29px;
+    padding-right: 50px;
+}
+.section1-span {
+    color: #F78065;
+}
+.section1-text {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    opacity: 0.6;
+    margin-bottom: 35px;
+    max-width: 495px;
+}
+.section1-btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 77px;
+    background: #F78065;
+    color: #FFFFFF;
+    border: none;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 125%;
+}
+.img-btn {
+    margin-right: 10px;
+}
+.section2 {
+    padding-top: 328px;
+    padding-bottom: 230px;
+    color: #000000;
+}
+.section2__cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.section2__card {
+    max-width: 386px;
+}
+.section2__card_img {
+    margin-bottom: 84px;
+    max-width: 247.5px;
+}
+.section2__card_title {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+}
+.section2__card_text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: rgba(0, 0, 0, 0.5);
+    margin-top: 35px;
+    margin-bottom: 25px;
+}
+.section2__card_orange {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    color: #F78065;
+}
