@@ -120,3 +120,45 @@ body {
     line-height: 22px;
     color: #F78065;
 }
+.section3 {
+    padding-bottom: 263px;
+    color: #000000;
+}
+.section3_title {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 45px;
+}
+.section3_cards {
+    display: flex;
+    margin: 3% 0;
+    flex-basis: 23%;
+    padding-top: 103px;
+    justify-content: space-between;
+    align-items: center;
+}
+.section3_card_img {
+    width: 32px;
+    height: 32px;       
+}
+.section3_card_title {
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 28px;
+    margin-top: 64px;
+    margin-bottom: 31px;
+}
+.section3_card_text {
+    max-width: 256px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    opacity: 0.5;
+}
+.section3_card_textRot {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    color: #F78065;
+    margin-top: 16px;
+}
