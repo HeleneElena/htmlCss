@@ -162,3 +162,71 @@ body {
     color: #F78065;
     margin-top: 16px;
 }
+.container1 {
+    display: flex;
+}
+.section4__content {
+    max-width: 325px;
+    color: #000000;
+    margin-bottom: 50px;
+    margin-right: 127px;
+}
+.section4__title {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 45px;
+}
+.section4__text {
+    font-size: 18px;
+    line-height: 22px;
+    opacity: 0.5;
+    margin-top: 32px;
+    margin-bottom: 48px;
+}
+.section4__btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 21px 96px;
+    background: #F78065;
+    border: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 125%;
+}
+.section4__item {
+    margin-right: 4px;
+}
+.section4__cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.section4__card_img {
+    max-width: 230px;
+    margin-right: 49px;
+}
+.section4__card1 {
+    margin-right: 0;
+}
+.section4__card_title {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    margin-top: 24px;
+}
+.section4__card_city {
+    font-size: 14px;
+    line-height: 17px;
+    color: #3F3D56;
+    margin-top: 8px;
+    margin-bottom: 11px;
+}
+.section4__card_text {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #F78065;
+    margin-bottom: 100px;
+}
