@@ -264,3 +264,75 @@ body {
     opacity: 0.5;
     margin-right: 41px;
 }
+.footer {
+    padding-bottom: 63px;
+    background: #F7F7F7;
+    color: #000000;
+}
+.footer_wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer_text {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    margin-top: 96px;
+}
+.footer_title {
+    max-width: 225px;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 60px;
+    margin-top: 16px;
+    margin-right: 236px;
+}
+.footer_cards {
+    display: flex;
+    justify-content: space-between;
+}
+.footer_card_title {
+    margin-bottom: 24px;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 23px;
+    margin-right: 125px;
+    margin-top: 30px;
+    white-space: nowrap;
+}
+.footer_card_title1 {
+    margin-right: 0;
+}
+.footer_card_list {
+    margin-bottom: 24px;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    text-decoration: none;
+    list-style: none;
+}
+.footer_line {
+    opacity: 0.2;
+    border: 1px solid #000000;
+    margin-top: 85px;
+    margin-bottom: 28px;
+}
+.footer_contakt {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer_contakt_text {
+
+}
+.footer_contakt_links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer_contakt_link {
+    text-decoration: none;
+    color: #000000;
+    margin-left: 48px;
+}
